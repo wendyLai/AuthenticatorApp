@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.admin.app0612"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Holo">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddAccountActivity"></activity>
+
+        <activity android:name=".HowItWork1Activity"></activity>
+        <activity android:name=".HowItWork2Activity"></activity>
+        <activity android:name=".HowItWork3Activity"></activity>
+
+        <activity android:name=".SettingActivity"></activity>
+        <activity android:name=".setting.AboutActivity"></activity>
+        <activity android:name=".setting.TimeSyncActivity"></activity>
+        <activity android:name=".setting.TimeSyncAboutFuncActivity"></activity>
+
+        <activity android:name=".addaccount.ManuallyAddAccountActivity"></activity>
+
+    </application>
+
+</manifest>

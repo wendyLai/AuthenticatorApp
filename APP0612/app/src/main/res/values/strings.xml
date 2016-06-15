@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_package_name">com.admin.app0612</string>
+    <string name="action_bar_title_main">"Google 身份验证器"</string>
+    <string name="action_bar_title_add_account">"添加帐户"</string>
+    <string name="action_bar_title_setting">"设置"</string>
+    <string name="action_bar_title_setting_about">"关于"</string>
+    <string name="action_bar_title_setting_timesync">"校正用来生成验证码的时间"</string>
+    <string name="action_bar_title_manually_add_account">"手动添加账户"</string>
+    <string name="button_add_account">"添加帐户"</string>
+    <string name="button_how_it_works">"了解其工作原理"</string>
+    <string name="option_menu_add_account">"添加账户"</string>
+    <string name="option_menu_how_it_works">"了解其工作原理"</string>
+    <string name="option_menu_settings">"设置"</string>
+    <string name="scan_barcode">"扫描条形码"</string>
+    <string name="manually_add_account">"手动添加账户"</string>
+    <string name="howitwork1_title">"要登录帐户，您需要输入密码。"</string>
+    <string name="howitworks1_details">"但是，如果您是在新的计算机或设备上登录，Google 会要求您输入特殊的验证码来验证您的身份。"</string>
+    <string name="howitwork2_title">"如果您是在新的计算机上登录，请输入通过手机获取的验证码。"</string>
+    <string name="howitworks2_details">"该应用会生成必要的验证码供您继续登录。"</string>
+    <string name="howitwork3_title">"然后您就能成功登录了。"</string>
+    <string name="howitworks3_details">"您还可以选择记住该计算机，这样，下次 Google 就不会再要求您在这台计算机上输入验证码了。"</string>
+    <string name="setting_options_timesync_title">"校正用来生成验证码的时间"</string>
+    <string name="setting_options_timesync_detail">"将身份验证器的内部时钟与Google服务器进行同步"</string>
+    <string name="setting_options_about_title">"关于"</string>
+    <string name="about_options_version_title">"版本"</string>
+    <string name="about_options_version_detail">"2.12"</string>
+    <string name="about_options_open_source_title">"开放源代码项目"</string>
+    <string name="about_options_service_title">"服务条款"</string>
+    <string name="about_options_private_policy_title">"隐私权政策"</string>
+    <string name="timesync_sync_now_title">"立即同步"</string>
+    <string name="timesync_adjustment_in_minutes_title">"Adjustment in minutes"</string>
+    <string name="timesync_about_function_title">"关于此功能  "</string>
+    <string name="button_back">"上一页"</string>
+    <string name="button_next">"下一页"</string>
+    <string name="button_ok">"确认"</string>
+    <string name="button_cancel">"退出"</string>
+    <string name="button_add">"添加"</string>
+    <string name="enter_pin">"在登录帐户期间，如果提示输入验证码，请输入此验证码："</string>
+    <string name="add_account_edit_username">"请输入账户名称"</string>
+    <string name="add_account_edit_pin">"请输入秘钥"</string>
+    <string name="add_account_dropdown_time">"基于时间"</string>
+    <string name="add_account_dropdown_counter">"基于计数器"</string>
+    <string name="welcome_page_title">"每天都有数千个在线帐户被盗用。"</string>
+    <string name="welcome_page_details">"即使您的密码被盗，两步验证也能保护您的 Google 帐户。"</string>
+    <string name="opensource_page_url">https://github.com/google/google-authenticator/</string>
+    <string name="terms_page_url">http://m.google.com/tospage</string>
+    <string name="privacy_page_url">http://www.google.com/policies/privacy/</string>
+    <string name="timesync_about_function_content_title">About this feature</string>
+    <string name="timesync_about_function_content_details">
+    <![CDATA[
+      If you press &quot;Sync now&quot;, Authenticator will attempt to sync its internal clock with
+      Google servers once. The device\'s Date & Time settings will not be changed.
+      <p>
+      Authenticator does not transmit any personal data or account information while synchronizing
+      its internal clock with Google servers.
+      <p>
+      <b>Why this is useful</b>
+      <p>
+      Authenticator generates 2-step verification codes based on 1) the current time, and 2) a
+      secret number known to the app and the server.
+      <p>
+      If Authenticator and the server disagree on what time it is, the codes that the app generates
+      may not be accepted when you try to log in.
+      <p>
+      By default Authenticator uses the device\'s Date & Time settings, and in most cases you will
+      be able to generate valid codes by making sure your time, date, and time zone settings are
+      configured correctly.  However, when time mismatches do occur, they can be hard to
+      troubleshoot (especially if you use network-provided time or time zones).
+    ]]>
+  </string>
+</resources>

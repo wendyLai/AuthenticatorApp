@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen
+        android:key="time_sync"
+        android:title="@string/setting_options_timesync_title"
+        android:summary="@string/setting_options_timesync_detail"
+        android:persistent="true">
+        <intent
+            android:targetPackage="@string/app_package_name"
+            android:targetClass="com.admin.app0612.setting.TimeSyncActivity">
+        </intent>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="about"
+        android:title="@string/setting_options_about_title"
+        android:persistent="true">
+        <intent
+            android:targetPackage="@string/app_package_name"
+            android:targetClass="com.admin.app0612.setting.AboutActivity">
+        </intent>
+    </PreferenceScreen>
+
+</PreferenceScreen>

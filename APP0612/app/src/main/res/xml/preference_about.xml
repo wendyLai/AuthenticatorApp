@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen
+        android:key="about_options_version"
+        android:title="@string/about_options_version_title"
+        android:summary="@string/about_options_version_detail"
+        android:persistent="false">
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="about_options_open_source"
+        android:title="@string/about_options_open_source_title">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="@string/opensource_page_url">
+        </intent>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="about_options_service"
+        android:title="@string/about_options_service_title">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/terms_page_url">
+        </intent>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="about_options_private_policy"
+        android:title="@string/about_options_private_policy_title">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/privacy_page_url">
+        </intent>
+    </PreferenceScreen>
+</PreferenceScreen>

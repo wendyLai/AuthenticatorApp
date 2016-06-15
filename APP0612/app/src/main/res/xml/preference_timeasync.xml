@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen
+        android:key="timesync_sync_now"
+        android:title="@string/timesync_sync_now_title"
+        android:persistent="false">
+        <intent
+            android:targetPackage="@string/app_package_name"
+            android:targetClass="">
+        </intent>
+    </PreferenceScreen>
+
+    <EditTextPreference
+        android:defaultValue="0"
+        android:inputType="numberSigned"
+        android:key="timesync_adjustment_in_minutes"
+        android:title="@string/timesync_adjustment_in_minutes_title">
+    </EditTextPreference>
+
+    <PreferenceScreen
+        android:key="timesync_about_function"
+        android:title="@string/timesync_about_function_title"
+        android:persistent="false">
+        <intent
+            android:targetPackage="@string/app_package_name"
+            android:targetClass="com.admin.app0612.setting.TimeSyncAboutFuncActivity">
+        </intent>
+    </PreferenceScreen>
+
+</PreferenceScreen>
