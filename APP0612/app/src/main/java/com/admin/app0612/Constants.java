@@ -20,5 +20,4 @@ public class Constants {
 
     public static Integer PWD_MAX_LENGTH = 20;
 
-
 }
