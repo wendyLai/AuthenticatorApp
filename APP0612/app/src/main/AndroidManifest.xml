@@ -45,26 +45,29 @@
         android:icon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Holo">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.admin.app0612.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".AddAccountActivity"></activity>
+        <activity android:name="com.admin.app0612.AddAccountActivity"></activity>
 
-        <activity android:name=".HowItWork1Activity"></activity>
-        <activity android:name=".HowItWork2Activity"></activity>
-        <activity android:name=".HowItWork3Activity"></activity>
+        <activity android:name="com.admin.app0612.HowItWork1Activity"></activity>
+        <activity android:name="com.admin.app0612.HowItWork2Activity"></activity>
+        <activity android:name="com.admin.app0612.HowItWork3Activity"></activity>
 
-        <activity android:name=".SettingActivity"></activity>
-        <activity android:name=".setting.AboutActivity"></activity>
-        <activity android:name=".setting.TimeSyncActivity"></activity>
-        <activity android:name=".setting.TimeSyncAboutFuncActivity"></activity>
+        <activity android:name="com.admin.app0612.SettingActivity"></activity>
+        <activity android:name="com.admin.app0612.setting.AboutActivity"></activity>
+        <activity android:name="com.admin.app0612.setting.TimeSyncActivity"></activity>
+        <activity android:name="com.admin.app0612.setting.TimeSyncAboutFuncActivity"></activity>
 
-        <activity android:name=".addaccount.ManuallyAddAccountActivity"></activity>
+        <activity android:name="com.admin.app0612.addaccount.ManuallyAddAccountActivity"></activity>
 
+        <activity
+            android:name="com.admin.app0612.timesync.SyncNowActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
 
         <activity
             android:name="com.google.zxing.client.android.CaptureActivity"

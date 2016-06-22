@@ -22,7 +22,7 @@ import android.view.View;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-import com.google.zxing.client.android.TestConstant;
+import com.google.zxing.client.android.ExtraForAPK;
 import com.google.zxing.client.android.common.executor.AsyncTaskExecInterface;
 import com.google.zxing.client.android.common.executor.AsyncTaskExecManager;
 
@@ -59,7 +59,7 @@ public final class AppPickerActivity extends ListActivity {
       String packageName = ((AppInfo) adapter.getItem(position)).getPackageName();
       Intent intent = new Intent();
       intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET);
-      intent.putExtra(TestConstant.BookmarkColumns.URL, "market://details?id=" + packageName);
+      intent.putExtra(ExtraForAPK.BookmarkColumns.URL, "market://details?id=" + packageName);
       setResult(RESULT_OK, intent);
     } else {
       setResult(RESULT_CANCELED);      

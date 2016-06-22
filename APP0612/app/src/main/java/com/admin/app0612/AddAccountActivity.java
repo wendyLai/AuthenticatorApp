@@ -8,7 +8,6 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -59,14 +58,14 @@ public class AddAccountActivity extends MyBottomBtnsActivity implements View.OnC
      * 手动添加用户
      */
     private void manuallyAddAccount() {
-        Log.i("info", "手动添加用户");
+        //Log.i("info", "手动添加用户");
         Intent intent = new Intent(this, ManuallyAddAccountActivity.class);
         startActivity(intent);
     }
 
 
     /**
-     * 启动扫描二维码
+     * 内部启动扫描二维码
      */
     private void scanBarcodeInside() {
         Intent intent = new Intent(AddAccountActivity.this, CaptureActivity.class);
@@ -88,7 +87,7 @@ public class AddAccountActivity extends MyBottomBtnsActivity implements View.OnC
          * 外部启动扫描二维码-启动zxing
          */
         private void scanBarcode() {
-            String zXingPackageName = Zxing.packagename;
+            String zXingPackageName = getResources().getString(R.string.zxing_package_name);
             boolean hasZXing = isPackageInstalled(context, zXingPackageName);
             if (hasZXing) {
                 doStartApplicationWithPackageName(context, zXingPackageName);
@@ -121,7 +120,7 @@ public class AddAccountActivity extends MyBottomBtnsActivity implements View.OnC
          * 下载ZXING
          */
         private void openBrowerDownload() {
-            Uri uri = Uri.parse(Zxing.downloaduri);
+            Uri uri = Uri.parse(getResources().getString(R.string.zxing_download_uri));
             Intent intent = new Intent(Intent.ACTION_VIEW, uri);
             startActivity(intent);
         }

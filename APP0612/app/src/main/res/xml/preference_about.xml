@@ -23,7 +23,7 @@
         android:title="@string/about_options_service_title">
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="@string/terms_page_url">
+            android:targetClass="@string/terms_page_url">
         </intent>
     </PreferenceScreen>
 
@@ -32,7 +32,7 @@
         android:title="@string/about_options_private_policy_title">
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="@string/privacy_page_url">
+            android:targetClass="@string/privacy_page_url">
         </intent>
     </PreferenceScreen>
 </PreferenceScreen>

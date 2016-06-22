@@ -8,7 +8,7 @@
         android:persistent="false">
         <intent
             android:targetPackage="@string/app_package_name"
-            android:targetClass="">
+            android:targetClass="com.admin.app0612.timesync.SyncNowActivity">
         </intent>
     </PreferenceScreen>
 

@@ -6,6 +6,7 @@ import android.os.Bundle;
  * Created by Administrator on 2016/6/12.
  */
 public class HowItWork2Activity extends MyBottomBtnsActivity{
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

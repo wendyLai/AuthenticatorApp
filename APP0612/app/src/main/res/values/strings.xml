@@ -1,5 +1,7 @@
 <resources>
     <string name="app_package_name">com.admin.app0612</string>
+    <string name="zxing_package_name">com.google.zxing.client.android</string>
+    <string name="zxing_download_uri"></string>
     <string name="action_bar_title_main">"Google 身份验证器"</string>
     <string name="action_bar_title_add_account">"添加帐户"</string>
     <string name="action_bar_title_setting">"设置"</string>
@@ -35,12 +37,14 @@
     <string name="button_ok">"确认"</string>
     <string name="button_cancel">"退出"</string>
     <string name="button_add">"添加"</string>
+    <string name="timesync_sync_now_progress_dialog_title">"立即同步"</string>
+    <string name="timesync_sync_now_progress_dialog_details">"正在连接服务器…"</string>
     <string name="enter_pin">"在登录帐户期间，如果提示输入验证码，请输入此验证码："</string>
     <string name="add_account_edit_username">"请输入账户名称"</string>
     <string name="add_account_edit_pin">"请输入秘钥"</string>
     <string name="add_account_dropdown_time">"基于时间"</string>
     <string name="add_account_dropdown_counter">"基于计数器"</string>
-    <string name="welcome_page_title">"每天都有数千个在线帐户被盗用。"</string>
+    <string name="welcome_page_title">"每天都有数千个在线帐户被盗用"</string>
     <string name="welcome_page_details">"即使您的密码被盗，两步验证也能保护您的 Google 帐户。"</string>
     <string name="opensource_page_url">https://github.com/google/google-authenticator/</string>
     <string name="terms_page_url">http://m.google.com/tospage</string>
@@ -191,5 +195,11 @@
     <string name="wifi_changing_network">请求连接到网络\u2026</string>
     <string name="wifi_ssid_label">网络SSID</string>
     <string name="wifi_type_label">类型</string>
-
+    <string name="context_menu_copy">复制到剪贴板</string>
+    <string name="context_menu_rename">重命名</string>
+    <string name="context_menu_delete">删除</string>
+    <string name="remove_account_dialog_warn_message1">"删除该帐户会导致您无法生成验证码，但不会关闭双重身份验证。您可能会因此无法登录自己的帐户。"</string>
+    <string name="remove_account_dialog_warn_message2">"在删除该帐户之前，请执行以下操作："</string>
+    <string name="remove_account_dialog_warn_message3">"1.关闭该帐户的两步验证或者"</string>
+    <string name="remove_account_dialog_warn_message4">"2.确保您可以通过其他方法生成验证码"</string>
 </resources>

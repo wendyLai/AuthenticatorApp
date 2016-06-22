@@ -35,7 +35,7 @@ import com.admin.app0612.R;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.client.android.Contents;
 import com.google.zxing.client.android.Intents;
-import com.google.zxing.client.android.TestConstant;
+import com.google.zxing.client.android.ExtraForAPK;
 
 /**
  * Barcode Scanner can share data like contacts and bookmarks by displaying a QR Code on screen,
@@ -142,7 +142,7 @@ public final class ShareActivity extends Activity {
       switch (requestCode) {
         case PICK_BOOKMARK:
         case PICK_APP:
-          showTextAsBarcode(intent.getStringExtra(TestConstant.BookmarkColumns.URL));
+          showTextAsBarcode(intent.getStringExtra(ExtraForAPK.BookmarkColumns.URL));
           break;
         case PICK_CONTACT:
           // Data field is content://contacts/people/984

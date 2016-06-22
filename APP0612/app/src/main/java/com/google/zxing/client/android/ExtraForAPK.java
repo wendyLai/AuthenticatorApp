@@ -4,7 +4,7 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.provider.BaseColumns;
 
-public class TestConstant {
+public class ExtraForAPK {
     public static final Uri BOOKMARKS_URI = Uri.parse("content://browser/bookmarks");
 
     public static class BookmarkColumns implements BaseColumns {
